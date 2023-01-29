@@ -59,7 +59,7 @@ function animateParticles() {
       let b = Math.floor(Math.random() * 256);
   
       obj.material.color.setRGB(r, g, b);
-    }, 1000);
+    }, 3000);
   }
   randomColors(stars);
 
